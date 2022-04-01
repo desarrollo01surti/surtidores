@@ -1,0 +1,183 @@
+[03-Mar-2022 23:59:07 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp2\htdocs\surtidores\vistas\modulos\nuevo-ticket.php on line 94
+[04-Mar-2022 00:00:34 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp2\htdocs\surtidores\vistas\modulos\nuevo-ticket.php on line 94
+[04-Mar-2022 00:00:38 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp2\htdocs\surtidores\vistas\modulos\nuevo-ticket.php on line 94
+[04-Mar-2022 12:04:54 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE surtidoresnew.tu_roles does not exist in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:14
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(14): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php(645): ModeloUsuario::mdlMostrarUsuarios('tu_roles', 'id_rol', '4')
+#2 C:\xampp2\htdocs\surtidores\vistas\modulos\nuevo-ticket.php(284): ControladorTickets->ctrCrearTicket()
+#3 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(219): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 14
+[04-Mar-2022 18:09:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 102
+[04-Mar-2022 18:09:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 102
+[08-Mar-2022 14:46:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorRoles::ctrEditarRoles() in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php:237
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\modulos\roles.php(60): include()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(219): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php on line 237
+[08-Mar-2022 14:46:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorRoles::ctrEditarRoles() in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php:237
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\modulos\roles.php(60): include()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(219): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php on line 237
+[08-Mar-2022 14:56:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorRoles::ctrEditarRoles() in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php:237
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\modulos\roles.php(60): include()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(219): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\lista-rol.php on line 237
+[08-Mar-2022 17:29:02 Europe/Berlin] PHP Warning:  Undefined array key "nuevoRol" in C:\xampp2\htdocs\surtidores\controladores\roles.controlador.php on line 110
+[08-Mar-2022 17:44:18 Europe/Berlin] PHP Warning:  Undefined array key "editarRols" in C:\xampp2\htdocs\surtidores\controladores\roles.controlador.php on line 110
+[10-Mar-2022 10:28:08 America/Lima] PHP Warning:  Undefined variable $data in C:\xampp2\htdocs\surtidores\vistas\modulos\nueva-orden.php on line 249
+[10-Mar-2022 10:28:08 America/Lima] PHP Warning:  Undefined variable $suma in C:\xampp2\htdocs\surtidores\vistas\modulos\nueva-orden.php on line 252
+[12-Mar-2022 16:55:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorRoles::ctrAsignarRoles() in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\asignar-rol.php:141
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\modulos\roles.php(78): include()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(223): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\vistas\modulos\roles\asignar-rol.php on line 141
+[15-Mar-2022 14:29:22 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 29
+[15-Mar-2022 14:29:22 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[15-Mar-2022 14:29:22 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[16-Mar-2022 00:07:37 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 29
+[16-Mar-2022 00:07:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[16-Mar-2022 00:07:37 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 14:42:41 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 29
+[17-Mar-2022 14:42:41 Europe/Berlin] PHP Warning:  Undefined variable $SupervisorTicket in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 14:42:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 14:42:41 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:22:14 Europe/Berlin] PHP Warning:  Undefined variable $SupervisorTicket in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:22:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:22:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:23:15 Europe/Berlin] PHP Warning:  Undefined variable $SupervisorTicket in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:23:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:23:15 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\tabla.php on line 49
+[17-Mar-2022 15:45:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 120
+[17-Mar-2022 15:45:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 120
+[17-Mar-2022 15:45:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 120
+[17-Mar-2022 15:45:08 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 120
+[17-Mar-2022 15:51:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:51:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:51:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:51:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:52:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:52:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:52:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 15:52:00 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp2\htdocs\surtidores\vistas\modulos\lateral\menu.php on line 122
+[17-Mar-2022 20:37:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 20:37:53 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 20:38:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 20:38:06 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 16:00:34 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 682
+[17-Mar-2022 16:00:34 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 684
+[17-Mar-2022 17:00:46 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 682
+[17-Mar-2022 17:00:46 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 684
+[17-Mar-2022 23:08:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 23:08:31 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[17-Mar-2022 17:08:58 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 682
+[17-Mar-2022 17:08:58 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 684
+[17-Mar-2022 17:20:14 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 682
+[17-Mar-2022 17:20:14 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 684
+[17-Mar-2022 17:45:22 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 682
+[17-Mar-2022 17:45:22 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 684
+[18-Mar-2022 21:13:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[18-Mar-2022 21:13:42 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in C:\xampp2\htdocs\surtidores\vistas\modulos\reclamacionesweb.php on line 80
+[18-Mar-2022 23:46:04 Europe/Berlin] PHP Warning:  Undefined variable $validarCorreo in C:\xampp2\htdocs\surtidores\vistas\plantilla.php on line 178
+[18-Mar-2022 23:56:13 Europe/Berlin] PHP Warning:  Undefined array key "ruta" in C:\xampp2\htdocs\surtidores\vistas\plantilla.php on line 174
+[18-Mar-2022 23:56:16 Europe/Berlin] PHP Warning:  Undefined array key "ruta" in C:\xampp2\htdocs\surtidores\vistas\plantilla.php on line 174
+[18-Mar-2022 23:56:17 Europe/Berlin] PHP Warning:  Undefined array key "ruta" in C:\xampp2\htdocs\surtidores\vistas\plantilla.php on line 174
+[19-Mar-2022 16:01:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e0f91637a3b890211ac1002bff43d66c' in 'where clause' in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:77
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(77): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(177): ModeloUsuario::mdlValidarUsuarioCatalogo('e0f91637a3b8902...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 77
+[21-Mar-2022 15:07:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f78023a74a329edbc1902532f98e18a4' in 'where clause' in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:77
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(77): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(177): ModeloUsuario::mdlValidarUsuarioCatalogo('f78023a74a329ed...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 77
+[21-Mar-2022 15:15:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'f78023a74a329edbc1902532f98e18a4' in 'where clause' in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:77
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(77): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(177): ModeloUsuario::mdlValidarUsuarioCatalogo('f78023a74a329ed...')
+#2 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 77
+[22-Mar-2022 00:00:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 18
+[22-Mar-2022 15:16:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 18
+[22-Mar-2022 15:25:19 Europe/Berlin] PHP Warning:  Undefined variable $verTicket in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 18
+[22-Mar-2022 15:25:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php on line 18
+[22-Mar-2022 15:25:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:100
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(100): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\controladores\usuario.controlador.php(224): ModeloUsuario::mdlMostrarUsuariosFiltro('tu_usuario', 'id', '16')
+#2 C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php(24): ControladorUsuario::ctrMostrarUsuariosFiltro('id', '16')
+#3 C:\xampp2\htdocs\surtidores\vistas\modulos\ticket-vista.php(58): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(244): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#6 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#7 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 100
+[22-Mar-2022 15:25:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:100
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php(100): PDOStatement->execute()
+#1 C:\xampp2\htdocs\surtidores\controladores\usuario.controlador.php(224): ModeloUsuario::mdlMostrarUsuariosFiltro('tu_usuario', 'id', '16')
+#2 C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\info.php(24): ControladorUsuario::ctrMostrarUsuariosFiltro('id', '16')
+#3 C:\xampp2\htdocs\surtidores\vistas\modulos\ticket-vista.php(58): include('C:\\xampp2\\htdoc...')
+#4 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(244): include('C:\\xampp2\\htdoc...')
+#5 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#6 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#7 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 100
+[22-Mar-2022 10:22:19 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 683
+[22-Mar-2022 10:22:19 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 685
+[22-Mar-2022 10:25:16 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 720
+[22-Mar-2022 16:26:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\timeline.php on line 71
+[22-Mar-2022 16:26:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\timeline.php on line 71
+[22-Mar-2022 16:27:18 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp2\htdocs\surtidores\vistas\modulos\tickets\timeline.php on line 71
+[22-Mar-2022 10:28:41 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 683
+[22-Mar-2022 10:28:41 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 685
+[22-Mar-2022 16:46:33 America/Lima] PHP Warning:  Undefined array key "nueva_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 692
+[22-Mar-2022 16:46:33 America/Lima] PHP Warning:  Undefined array key "id_not" in C:\xampp2\htdocs\surtidores\controladores\tickets.controlador.php on line 694
+[25-Mar-2022 20:42:47 Europe/Berlin] PHP Warning:  Undefined variable $link in C:\xampp2\htdocs\surtidores\modelos\conexion.php on line 32
+[25-Mar-2022 20:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:75
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(177): ModeloUsuario::mdlValidarUsuarioCatalogo('login')
+#1 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#3 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 75
+[25-Mar-2022 20:44:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php:75
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(177): ModeloUsuario::mdlValidarUsuarioCatalogo('login')
+#1 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#3 {main}
+  thrown in C:\xampp2\htdocs\surtidores\modelos\usuario.modelo.php on line 75
+[25-Mar-2022 17:49:05 America/Lima] PHP Fatal error:  Uncaught Error: Class "ControladorOrdenCompra" not found in C:\xampp2\htdocs\surtidores\vistas\modulos\nueva-orden.php:180
+Stack trace:
+#0 C:\xampp2\htdocs\surtidores\vistas\plantilla.php(244): include()
+#1 C:\xampp2\htdocs\surtidores\controladores\plantilla.controlador.php(8): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\surtidores\index.php(51): ControladorPlantilla->plantilla()
+#3 {main}
+  thrown in C:\xampp2\htdocs\surtidores\vistas\modulos\nueva-orden.php on line 180

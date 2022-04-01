@@ -1,0 +1,131 @@
+#display /*estilos para la caja principal en donde se puestran los resultados de la busqueda en forma de lista*/
+{
+position: absolute;
+background: #FFFFFF;
+width:250px;
+display:none;
+overflow:hidden;
+z-index:5;
+border: solid 1px #666;
+}
+.display_box /*estilos para cada caja unitaria de cada producto que se muestra*/
+{
+padding:2px;
+padding-left:6px;
+font-size:12px;
+height:60px;
+text-decoration:none;
+color:#3b5999;
+}
+
+.display_box:hover /*estilos para cada caja unitaria de cada usuario que se muestra. cuando el mause se pocisiona sobre el area*/
+{
+background: #3C8DBC;
+color: #FFF;
+}
+.desc
+{
+color:#666;
+font-size:16;
+}
+.desc:hover
+{
+color:#FFF;
+}
+
+#loading-screen {
+  background-color: rgba(25,25,25,0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  margin-top: 0;
+  top: 0;
+  text-align: center;
+}
+#loading-screen img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.logoGrande{
+		padding:7px 30px;
+		filter:contrast(200%);
+	}
+
+	.logoSmall{
+		padding:10px 10px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.logoGrande{
+		padding:7px 30px;
+		filter:contrast(200%);
+	}
+
+	.logoSmall{
+		padding:9px 9px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEﾃ前 O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.logoGrande{
+		padding:7px 30px;
+		filter:contrast(200%);
+	}
+
+	.logoSmall{
+		padding:9px 9px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.logoGrande{
+		width: 150px;
+		display:block;
+		margin:auto;
+		padding:7px 5px;
+	}
+
+}
+
+.tablaRepMovimientos.dataTable td {
+  font-size: 0.9em;
+}
+
+.tablaRepMovimientos.dataTable th {
+  font-size: 0.9em;
+}
+
+.tablaRepMovimientos.dataTable tr.dtrg-level-0 td {
+  font-size: 0.9em;
+}
